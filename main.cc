@@ -51,10 +51,12 @@ int main()
     do
     {
         char from=0,to=0;
-        cout<<"Input [A] to [B] "<<endl;
-        cout<<"[A] = ";
+        cout<<"===========Usage example==========="<<endl;
+        cout<<"<from> <to>: A J"<<endl;
+        cout<<"A -> E -> D -> G -> H -> J ->  7"<<endl;
+        cout<<"==================================="<<endl;
+        cout<<"<from> <to>: ";
         cin>>from;
-        cout<<"[B] = ";
         cin>>to;
         from -= 'A'; to -= 'A';
         if( ((from < (NUM_OF_NODE-NUM_OF_NODE))||(from > (NUM_OF_NODE-1)))
